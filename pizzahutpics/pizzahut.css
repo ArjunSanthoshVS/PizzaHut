@@ -1,0 +1,396 @@
+body{
+    margin: 0%;
+}
+.container{
+    height: 1727px;
+}
+.forflex{
+    display: flex;
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    box-shadow: rgb(0 0 0 / 30%) 0px 3px 5px 0px;
+    display: flex;
+}
+.logo{
+    margin-top: 15px;
+    padding-left: 240px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.signin{
+    margin-left: 847px;
+    font-family: "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: underline dotted;
+    text-underline-position: under;
+    font-size: 14px;
+    line-height: 61px;
+    color: rgb(107, 110, 121);
+    cursor: pointer;
+}
+.picturebox{
+    box-shadow: 0 0 78px -65px black inset;
+
+}
+.pictureone{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+.delivery{
+    width: 100%;
+    height: 64px;
+    margin-top: -132px;
+    display: flex;
+}
+.boxone{
+    background-color: white;
+    height: 62px;
+    margin-left: 508px;
+    width: 241px;
+    cursor: pointer;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.gifone{
+    padding-left: 72px;
+    margin-top: 13px;
+}
+.textone{
+    float: right;
+    font-size: 17px;
+    margin-right: 69px;
+
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    color: #da291c;
+    font-weight: 600;
+    margin-top: 17px;
+}
+.boxtwo{
+    background-color: white;
+    height: 53px;
+    margin-left: 2px;
+    width: 256px;
+    cursor: pointer;
+    margin-top: 9px;
+    filter: grayscale(100%) contrast(34%);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.giftwo{
+    padding-left: 72px;
+    margin-top: 10px;
+}
+.texttwo{
+    float: right;
+    font-size: 17px;
+    margin-right: 72px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #da291c;
+    font-weight: 600;
+    margin-top: 13px;
+}
+.lowerbox{
+    background-color: rgb(255, 255, 255);
+    width: 499px;
+    height: 217px;
+    margin-left: 509px;
+    margin-top: -2px;
+    font-size: 18px;
+    box-shadow:0px 0px 30px #575757
+    
+}
+.contactlessdelivery{
+    font-family: system-ui;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 18px;
+    padding-left: 22px;
+    padding-top: 19px;
+    letter-spacing: -0.5px;
+}
+.learnmore{
+    font-family: SharpSans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    color: #231f20;
+    --add-icon-height: 16px;
+    --add-icon-width: 16px;
+    font-weight: 400;
+    margin: 0;
+    margin-left: 22px;
+    padding-top: 5px;
+}
+.location{
+    margin-left: 23px;
+    width: 446px;
+    margin-top: 27px;
+    height: 52px;
+    font-size: 17.5px;
+    padding-left: 8px;
+    border: 0.5px solid #c0c0c0;
+}
+.geolocation{
+    width: 457px;
+    height: 43px;
+    display: flex;
+    margin-left: 23px;
+    border: solid 0.5px #c0c0c0;
+}
+.geoicon{
+    width: 14px;
+    height: 14px;
+    margin-top: 14px;
+    margin-left: 8px;
+    color: #4a90e2;
+    
+}
+.currentlocation{
+    font-family: system-ui;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.secondbody{
+    width: 100%;
+    height: 77px;
+    display: flex;
+}
+.lineone{
+    border-width: 1px;
+    border: 0.25px solid #d6d6d6;
+    content: "";
+    height: 0.75px;
+    width: 621px;
+    margin-top: 66px;
+    display: flex;
+}
+.populardeals{
+    font-size: 11px;
+    color: #231f20;
+    font-family: system-ui;
+    margin-top: 37px;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+}
+.linetwo{
+    border-width: 1px;
+    border: 0.25px solid #d6d6d6;
+    content: "";
+    height: 0.75px;
+    width: 615px;
+    margin-top: 66px
+}
+.adpictures{
+width: 100%;
+height: 374px;
+display: flex;
+}
+.adpictureone{
+    width: 523px;
+    height: 349px;
+    margin-left: 230px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.adpicturetwo{
+    width: 523px;
+    height: 349px;
+    margin-left: 11px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.adfooters{
+    width: 100%;
+    height: 12px;
+    display: flex;
+}
+.adfooterone{
+    height: 12px;
+    width: 497px;
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 11px;
+    color: #e9ebee;
+    background-color: #454545;
+    margin-top: 0px;
+    margin-left: 230px;
+    padding-left: 26px;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    letter-spacing: 0.25px;
+    cursor: pointer;
+}
+.adfootertwo{
+    height: 12px;
+    width: 497px;
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 11px;
+    color: #e9ebee;
+    background-color: #454545;
+    margin-top: 0px;
+    margin-left: 11px;
+    padding-left: 26px;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    letter-spacing: 0.25px;
+    cursor: pointer;
+
+}
+.button{
+    border: none;
+    margin-top: 20px;
+    width: 1059px;
+    margin-left: 229px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    line-height: 1;
+    min-height: 56px;
+    border-radius: 8px;
+    background-color: #0a8020;
+    color: #fff;
+    font-weight: 600;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+}
+.mainfooter{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 536px;
+    margin-top: 40px;
+}
+.footerone{
+    width: 151px;
+    height: 150px;
+    margin-left: 198px;
+    padding-top: 34px;
+}
+.commonstyle{
+    font-family: SharpSansSemiBold,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-left: 40px;
+} 
+.list{
+    font-size: .8rem;
+    font-weight: 400;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    line-height:0.25;
+    color: #fff;
+    cursor: pointer;
+}
+.footertwo{
+    width: 153px;
+    height: 150px;
+    margin-left: 144px;
+    padding-top: 34px;
+}
+.footerthree{
+    width: 173px;
+    height: 150px;
+    margin-left: 158px;
+    padding-top: 34px;
+}
+.footerfour{
+    width: 173px;
+    height: 150px;
+    margin-left: 156px;
+    padding-top: 34px;
+}
+.playstore{
+    padding-left: 607px;
+    margin-top: 30px;
+}
+.appstore{
+    width: 130px;
+    cursor: pointer;
+}
+.android{
+    width: 129px;
+    padding-left: 19px;
+    cursor: pointer;
+}
+.feedbacksection{
+   display: flex;
+    margin-top: 24px;
+}
+.servingyoubetter{
+    font-size: 15px;
+    color: white;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    margin-left: 238px;
+}
+.feedback{
+    margin-left: 18px;
+    font-size: 17px;
+    padding-left: 8px;
+    border-radius: 7px;
+    width: 144px;
+    cursor: pointer;
+}
+.media{
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: -10px;
+    margin-left: 418px;
+    color: white;
+}
+.logos{
+    margin-left: 64%;
+    width: 182px;
+    margin-top: -21px;
+}
+.medialogo{
+    height: 20px;
+    width: 20px;
+    margin-left: 13px;
+    cursor: pointer;
+}
+.longtext{
+    font-size: 11px;
+    color: #78838c;
+    text-align: center;
+    width: 68%;
+    height: 25px;
+    margin-left: 234px;
+    margin-top: 26px;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    line-height: 1.75;
+    font-weight: 500;
+}
+.longtext1{
+    font-size: 11px;
+    color: #78838c;
+    text-align: center;
+    width: 68%;
+    height: 25px;
+    margin-left: 234px;
+    margin-top: 16px;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    line-height: 1.75;
+    font-weight: 500;
+}
+.longtext2{
+    font-size: 11px;
+    color: #78838c;
+    text-align: center;
+    width: 68%;
+    height: 25px;
+    margin-left: 234px;
+    margin-top: -13px;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    line-height: 1.75;
+    font-weight: 500;
+}
+.fssai{
+    width: 72px;
+    height: 72px;
+    background-color: white;
+    margin-left: 47%;
+    border: 1px solid white;
+    border-radius: 6px;
+
+}
